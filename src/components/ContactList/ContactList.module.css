@@ -1,14 +1,10 @@
-.filterList {
+.contactList {
     display: flex;
     flex-direction: column;
-    margin: 20px 0 0 0;
-    min-height: 400px;
-}
-
-.filterList__item {
-    font-size: 21px;
-    font-weight: 400;
-    cursor: pointer;
+    width: 100%;
+    align-items: center;
+    margin: 30px 0 0 0;
+    min-height: 300px;
 }
 
 .list__loader {

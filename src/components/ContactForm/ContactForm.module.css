@@ -3,15 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
     margin-top: 20px;
     border-bottom: 2px solid rgb(0, 140, 255);
 }
 
 .ContactForm__input {
-    width: 100%;
-    font-size: 18px;
-    border: 1px solid rgb(151, 151, 151);
+    width: 584px;
+    font-size: 21px;
+    border: none;
+    border-bottom: 1px solid rgb(151, 151, 151);
     border-radius: 4px;
     padding: 4px 8px;
     outline: none;
@@ -22,7 +23,7 @@
 }
 
 .ContactForm__input:hover {
-    border: 1px solid rgb(117, 188, 255)
+    border-bottom: 1px solid rgb(117, 188, 255)
 }
 
 .ContactForm__submit {

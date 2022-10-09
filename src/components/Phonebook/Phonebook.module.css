@@ -1,7 +1,7 @@
 .phonebook {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 600px;
     padding: 30px 15px;
     border: 2px solid rgba(234, 236, 236, 0.9);
     border-radius: 10px;

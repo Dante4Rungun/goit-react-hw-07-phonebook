@@ -18,16 +18,14 @@ export const ContactList = () => {
     },[dispatch])
 
     return (
-        <ul id="filter-list" className={styled.filterList}>
+        <div id="filter-list" className={styled.contactList}>
             {isLoading === true ?
-                <li className={styled.list__loader}><RotatingLines /></li> : 
-            items.filter(contact => contact.name.toLowerCase().includes(filter.toLowerCase())).map(contact => (
-                <li key={contact.id} className={styled.filterList__item}>
-                    <ContactListItem id={contact.id} name={contact.name} number={contact.phone} /> 
-                </li>                 
+                <div className={styled.list__loader}><RotatingLines/></div> : 
+            items.filter(contact => contact.name.toLowerCase().includes(filter.toLowerCase())).map(contact => ( 
+                <ContactListItem contact={contact} />                               
             ))}
             {error && <li className={styled.list__error}></li> }
-        </ul>   
+        </div>   
     )
 }
 

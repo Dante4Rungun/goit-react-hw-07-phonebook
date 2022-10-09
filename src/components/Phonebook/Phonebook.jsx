@@ -16,9 +16,3 @@ export const Phonebook = () => {
         </div>
     )
 }
-
-/*
-            
-            
-            /<p>{JSON.stringify(items,null,2)}</p>
-*/
